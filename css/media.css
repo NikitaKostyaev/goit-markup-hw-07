@@ -9,9 +9,31 @@
         width: 766px;
     }
 
+        .about-list {
+            gap: 24px;
+            row-gap: calc(24px * 3);
+        }
+
+        .about-item-title {
+            text-align: left;
+        }
+
     .about-item {
-       width: calc((100% - 24px) / 2);
+        width: calc((100% - 24px) / 2);
     }
+
+    .team > .container {
+width: 558px;
+    }
+
+        .team-list {
+            gap: 24px;
+            row-gap: 64px;
+        }
+
+        .team-list-item {
+            width: calc((100% - 24px) / 2);
+        }
 }
 
 @media screen and (min-width: 1158px) {
@@ -19,7 +41,43 @@
         width: 1158px;
     }
 
+    .about-item {
+        width: 264px;
+    }
+
+        .about-list {
+            gap: 24px;
+        }
+
+                .about-item-title {
+                    font-weight: 500;
+                        font-size: 20px;
+                        line-height: 1.2;
+                        letter-spacing: 0.02em;
+                        
+                }
+
         .about-description-icon {
             display: flex;
         }
+
+                .about-item-text {
+                    font-weight: 400;
+                    font-size: 16px;
+                        line-height: 1.5;
+                        letter-spacing: 0.02em;
+                        color: var(--secondary-text-color);
+                }
+
+                .functions {
+                    display: flex;
+                }
+
+                                .team > .container {
+                                    width: 1158px;
+                                }
+
+                               .team-list-item {
+                                width: calc((100% - 72px) / 4);
+                               }
 }

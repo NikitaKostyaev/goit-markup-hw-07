@@ -249,11 +249,13 @@ textarea {
 
 .about-item-title {
     margin-bottom: 8px;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: var(--primary-text-color);
+    font-weight: 700;
+        font-size: 36px;
+        line-height: 1.11;
+        text-align: center;
+        letter-spacing: 0.02em;
+        text-transform: capitalize;
+        color: var(--primary-text-color);
 }
 
 .about-description-icon {
@@ -268,15 +270,17 @@ textarea {
 }
 
 .about-item-text {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: var(--secondary-text-color);
+    font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: var(--secondary-text-color);
 }
 
 /* --------------FUNCTIONS-------------- */
 
 .functions {
+    display: none;
     padding-bottom: 120px;
 }
 
@@ -298,8 +302,8 @@ textarea {
 /* --------------TEAM-------------- */
 
 .team {
-    padding-top: 120px;
-    padding-bottom: 120px;
+    padding-top: 96px;
+    padding-bottom: 96px;
     background-color: var(--secondary-white-color);
 }
 
@@ -315,10 +319,13 @@ textarea {
 
 .team-list {
     display: flex;
-    gap: 24px;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 72px;
 }
 
 .team-list-item {
+    width: 100%;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
     border-radius: 0px 0px 4px 4px;
     background: var(--primary-white-color);
@@ -385,8 +392,8 @@ textarea {
 /* --------------CUSTOMERS--------------- */
 
 .customers-container {
-padding-top: 120px;
-    padding-bottom: 120px;
+padding-top: 96px;
+    padding-bottom: 96px;
 }
 
 .customers-title{
@@ -402,6 +409,7 @@ font-weight: 700;
 
 .customers-list {
     display: flex;
+    flex-wrap: wrap;
         justify-content: center;
         gap: 24px;
 }
