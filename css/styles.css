@@ -181,19 +181,22 @@ textarea {
     background-position: center;
     background-repeat: no-repeat;
     justify-content: center;
-    padding-top: 188px;
-    padding-bottom: 188px;
+    padding-top: 112px;
+    padding-bottom: 112px;
     margin: 0 auto;
 }
 
 .hero-title {
-    max-width: 496px;
+    max-width: 320px;
     margin-left: auto;
     margin-right: auto;
-    font-size: 56px;
-    line-height: 1.07;
+    margin-bottom: 72px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
     text-align: center;
     letter-spacing: 0.02em;
+    text-transform: capitalize;
     color: var(--primary-white-color);
 }
 
@@ -244,7 +247,6 @@ textarea {
 
 .about-item {
     width: 100%;
-    /* flex-basis: calc((100% - 72px) / 4); */
 }
 
 .about-item-title {
@@ -325,7 +327,7 @@ textarea {
 }
 
 .team-list-item {
-    width: 100%;
+    width: 264px;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
     border-radius: 0px 0px 4px 4px;
     background: var(--primary-white-color);
@@ -396,7 +398,7 @@ padding-top: 96px;
     padding-bottom: 96px;
 }
 
-.customers-title{
+.customers-title {
     margin-bottom: 72px;
 font-weight: 700;
     font-size: 36px;
@@ -411,11 +413,12 @@ font-weight: 700;
     display: flex;
     flex-wrap: wrap;
         justify-content: center;
-        gap: 24px;
+        gap: 16px;
+        row-gap: 72px;
 }
 
 .customers-list-item {
-    width: 168px;
+    width: 190px;
     height: 88px;
 }
 

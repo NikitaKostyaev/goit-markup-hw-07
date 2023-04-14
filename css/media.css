@@ -9,6 +9,12 @@
         width: 766px;
     }
 
+        .hero-title {
+            max-width: 496px;
+            font-size: 56px;
+                line-height: 1.07;
+        }
+
         .about-list {
             gap: 24px;
             row-gap: calc(24px * 3);
@@ -26,6 +32,10 @@
 width: 558px;
     }
 
+        .hero-title {
+            margin-bottom: 36px;
+        }
+
         .team-list {
             gap: 24px;
             row-gap: 64px;
@@ -34,12 +44,30 @@ width: 558px;
         .team-list-item {
             width: calc((100% - 24px) / 2);
         }
+
+                .customers-list {
+                    gap: 24px;
+                    row-gap: calc(24px * 3);
+                }
+
+                .customers-list-item {
+                    width: 168px;
+                }
 }
 
 @media screen and (min-width: 1158px) {
     .container {
         width: 1158px;
     }
+
+        .hero {
+            padding-top: 188px;
+            padding-bottom: 188px;
+        }
+
+                .hero-title {
+                    margin-bottom: 48px;
+                }
 
     .about-item {
         width: 264px;
@@ -80,4 +108,11 @@ width: 558px;
                                .team-list-item {
                                 width: calc((100% - 72px) / 4);
                                }
+
+                .customers-container {
+                    padding-top: 120px;
+                    padding-bottom: 120px;
+                }
+
+
 }
