@@ -19,11 +19,6 @@
                 line-height: 1.07;
         }
 
-                .about-container {
-                padding-top: 96px;
-                    padding-bottom: 96px;
-                }
-
         .about-list {
             gap: 24px;
             row-gap: calc(24px * 3);
