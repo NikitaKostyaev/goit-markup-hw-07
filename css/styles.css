@@ -165,7 +165,7 @@ textarea {
 
 .address-link:hover,
 .address-link:focus {
-    transform: ;
+    /* transform: ; */
     color: var(--secondary-accent-color);
 }
 
@@ -175,15 +175,18 @@ textarea {
 .hero {
     display: flex;
     background-color: var(--primary-text-color);
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/img-people-office.jpg);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero-bg-mob.jpg);
     max-width: 1600px;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     justify-content: center;
-    padding-top: 112px;
-    padding-bottom: 112px;
     margin: 0 auto;
+}
+
+.hero-container {
+    padding-top: 112px;
+        padding-bottom: 112px;
 }
 
 .hero-title {
@@ -232,10 +235,13 @@ textarea {
 /* --------------ABOUT-------------- */
 
 .about {
-    padding-top: 96px;
-    padding-bottom: 96px;
     margin-left: auto;
     margin-right: auto;
+}
+
+.about-container {
+    padding-top: 96px;
+        padding-bottom: 96px;
 }
 
 .about-list {
@@ -304,9 +310,12 @@ textarea {
 /* --------------TEAM-------------- */
 
 .team {
-    padding-top: 96px;
-    padding-bottom: 96px;
     background-color: var(--secondary-white-color);
+}
+
+.team-container {
+    padding-top: 96px;
+        padding-bottom: 96px;
 }
 
 .team-title {
