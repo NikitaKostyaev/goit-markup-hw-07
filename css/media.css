@@ -119,6 +119,12 @@ width: 558px;
                                     width: 558px;
                                 }
 
+                                                                .footer-container-wrap {
+                                                                    display: flex;
+                                                                    flex-wrap: nowrap;
+                                                                    gap: 24px;
+                                                                }
+
                                 .footer-logo {
                                     display: flex;
                                     justify-content: flex-start;
@@ -133,6 +139,10 @@ width: 558px;
                                 .footer-input {
                                     width: 246px;
                                 }
+
+                                                                .footer-input-wrap {
+                                                                    gap: 24px;
+                                                                }
 
                                 .footer-subscribe-field {
                                     display: block;
@@ -233,14 +243,28 @@ width: 558px;
                 }
 
                                 .footer > .container {
-                                    width: 1158
-                                    x;
+                                    width: 1158px;
                                 }
 
                                 .footer-container {
+                                    display: flex;
                                     padding-top: 100px;
                                     padding-bottom: 100px;
                                 }
+
+                                                                .footer-container-wrap {
+                                                                    gap: 120px;
+                                                                    margin-bottom: 0;
+                                                                    margin-right: 80px;
+                                                                }
+
+                                                                                                                                .footer-subscribe-field {
+                                                                                                                                    align-items: flex-start;
+                                                                                                                                }
+
+                                                                                                                                                                                                                                                                .footer-input {
+                                                                                                                                                                                                                                                                    width: 264px;
+                                                                                                                                                                                                                                                                }
 
                                                 
 

@@ -678,9 +678,16 @@ font-weight: 700;
 .footer-container {
 display: flex;
 flex-wrap: wrap;
-justify-content: center;
 padding-top: 96px;
     padding-bottom: 96px;
+}
+
+.footer-container-wrap {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 72px;
+    margin-bottom: 72px;
 }
 
 .footer-logo {
