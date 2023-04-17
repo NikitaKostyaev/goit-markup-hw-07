@@ -166,6 +166,13 @@ textarea {
         border: 1px solid transparent;
 }
 
+/* .menu-close-icon {
+    position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+} */
+
 .mob-menu-list {
     margin-bottom: 50px;
 }
@@ -246,8 +253,6 @@ margin-bottom: 24px;
     fill: var(--primary-white-color);
 }
 
-.mob-menu-soc-icon {}
-
 /** -------------------------MAIN-PAGE------------------------- */
 /* --------------HERO-------------- */
 
@@ -261,6 +266,8 @@ margin-bottom: 24px;
     background-repeat: no-repeat;
     justify-content: center;
     margin: 0 auto;
+    padding-top: 112px;
+        padding-bottom: 112px;
 }
 
 @media (min-device-pixel-ratio: 2),
@@ -270,11 +277,6 @@ margin-bottom: 24px;
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
             url(../images/hero-bg-mob-2x.jpg);
     }
-}
-
-.hero-container {
-    padding-top: 112px;
-        padding-bottom: 112px;
 }
 
 .hero-title {
@@ -325,9 +327,6 @@ margin-bottom: 24px;
 .about {
     margin-left: auto;
     margin-right: auto;
-}
-
-.about-container {
     padding-top: 96px;
         padding-bottom: 96px;
 }
@@ -398,12 +397,9 @@ margin-bottom: 24px;
 /* --------------TEAM-------------- */
 
 .team {
-    background-color: var(--secondary-white-color);
-}
-
-.team-container {
     padding-top: 96px;
-        padding-bottom: 96px;
+    padding-bottom: 96px;
+    background-color: var(--secondary-white-color);
 }
 
 .team-title {
@@ -490,7 +486,7 @@ margin-bottom: 24px;
 
 /* --------------CUSTOMERS--------------- */
 
-.customers-container {
+.customers {
 padding-top: 96px;
     padding-bottom: 96px;
 }
@@ -672,14 +668,14 @@ font-weight: 700;
 /* --------------FOOTER-------------- */
 
 .footer {
+    padding-top: 96px;
+    padding-bottom: 96px;
     background-color: var(--primary-text-color);
 }
 
 .footer-container {
 display: flex;
 flex-wrap: wrap;
-padding-top: 96px;
-    padding-bottom: 96px;
 }
 
 .footer-container-wrap {
@@ -784,7 +780,7 @@ padding-top: 96px;
 
 .footer-input {
     background-color: transparent;
-    width: 398px;
+    width: 100%;
     height: 40px;
     padding: 8px 16px;
     margin-left: auto;
